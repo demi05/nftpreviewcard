@@ -52,7 +52,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ### The challenge
 
@@ -91,6 +91,4 @@ I will expand on what all i learnt while doing this project.
 - Twitter - [@_iam_tee](https://www.twitter.com/@_iam_tee_)
 
 
-## Acknowledgments
-Many thanks to Tife Olusanya for his help on this project(The image hover effect)!
-Check out his twitter @t3ch_spawn  link- https://www.twitter.com/@t3ch_spawn
+
