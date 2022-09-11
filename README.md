@@ -88,7 +88,7 @@ I will expand on what all i learnt while doing this project.
 
 - LinkedIn - [Leshi Demilade](https://www.linkedin.com/in/leshi-demilade-74429223a/)
 - Frontend Mentor - [@demi05](https://www.frontendmentor.io/profile/demi05)
-- Twitter - [@toniiaa___](https://www.twitter.com/@toniiaa___)
+- Twitter - [@toniiaa___](https://twitter.com/toniiaa___?s=09)
 
 
 
