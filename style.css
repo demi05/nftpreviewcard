@@ -154,7 +154,7 @@ span:hover {
     display: flex;
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: auto;
     justify-content: center;
