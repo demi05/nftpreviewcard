@@ -86,7 +86,7 @@ I will expand on what all i learnt while doing this project.
 
 ## Author
 
-- LinkedIn - [Leshi Demilade]()
+- LinkedIn - [Leshi Demilade](https://www.linkedin.com/in/leshi-demilade-74429223a/)
 - Frontend Mentor - [@demi05](https://www.frontendmentor.io/profile/demi05)
 - Twitter - [@_iam_tee](https://www.twitter.com/@_iam_tee)
 
