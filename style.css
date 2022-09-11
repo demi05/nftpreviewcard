@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(216, 50%, 4%);
+  margin-top: 8em;
+  font-family: "Outfit", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 375px;
+  box-shadow: 0 0 4px 10px hsl(214, 64%, 2%);
+  padding: 1em;
+}
+.img-div {
+  position: relative;
+  width: 100%;
+}
+.eq-img {
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  /*max-height: 20%;
+  I put margin left and right to auto here but i realized doing that spoils my code especially because i've already used display:flex*/
+  object-fit: cover;
+  max-width: 100%;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-out;
+  border-radius: 0.5rem;
+}
+.overlay:hover {
+  background-color: hsla(178, 100%, 50%, 60%);
+  cursor: pointer;
+}
+.overlay:hover .view-icon {
+  opacity: 1;
+  pointer-events: all;
+}
+.view-icon {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  opacity: 0;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-out;
+  border-radius: 0.5rem;
+}
+.text-side {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.eq-h3 {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.eq-h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.eq-p {
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+.price {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+}
+.pr-h3 {
+  color: hsl(178, 100%, 50%);
+  padding-right: 7em;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.pr-p {
+  color: hsl(215, 51%, 70%);
+}
+.hr-class {
+  border: 1px solid hsl(215, 32%, 27%);
+  /* border-style: 1px thin hsl(215, 51%, 70%);*/
+}
+.created-by {
+  display: flex;
+}
+.crt-p {
+  color: hsl(215, 51%, 70%);
+  padding-top: 1.3em;
+  padding-bottom: 1.5em;
+  letter-spacing: 1.3px;
+}
+.mans-face {
+  width: 10%;
+  max-width: 10%;
+  height: 7%;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+span {
+  color: hsl(0, 0%, 100%);
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  padding: 3em;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 375px;
+  }
+  .eq-h3 {
+    padding-top: 0.8em;
+  }
+  .pr-h3 {
+    padding-right: 4em;
+  }
+}
